@@ -2,7 +2,6 @@ from array_management import revers_array
 
 def selection_sort_decending(array_to_sort):
     hightes_item = find_hightes_element(array_to_sort)+1
-    print(hightes_item)
     for position in range(int(len(array_to_sort))):
         hightes_item = find_higest_element_grather_than(array_to_sort,hightes_item)
         index_highes_item = array_to_sort.index(hightes_item)
